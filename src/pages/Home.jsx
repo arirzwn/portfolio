@@ -68,6 +68,29 @@ const data = [
   },
 ];
 
+const sertif = [
+  {
+    img: "/assets/expert.png",
+    title: "Menjadi Front-End Web Developer Expert",
+    platform: "Dicoding Indonesia",
+  },
+  {
+    img: "/assets/dasarjs.png",
+    title: "Belajar Dasar Pemrograman JavaScript",
+    platform: "Dicoding Indonesia",
+  },
+  {
+    img: "/assets/backend.png",
+    title: "Belajar Back-End Pemula dengan Javascript",
+    platform: "Dicoding Indonesia",
+  },
+  {
+    img: "/assets/git.png",
+    title: "Belajar Dasar Git dengan GitHub",
+    platform: "Dicoding Indonesia",
+  },
+];
+
 export function Home() {
   return (
     <>
@@ -96,7 +119,7 @@ export function Home() {
           </p>
         </div>
         <div>
-          <h6 className="text-center mt-10 font-bold relative after:content-[''] after:block after:mt-2 after:bg-amber-300 after:w-10 after:h-1 after:rounded-sm after:mx-auto">
+          <h6 className="text-center mt-10 font-bold relative after:content-[''] after:block after:mt-2 after:bg-[#fca311] after:w-10 after:h-1 after:rounded-sm after:mx-auto">
             Experience
           </h6>
           <div className="mt-6">
@@ -198,7 +221,7 @@ export function Home() {
                     className="rounded-sm w-full h-auto"
                   />
                 </figure>
-                <div className="bg-[#252632]">
+                <div className="mt-2 bg-[#252632]">
                   <h2 className="text-lg">{item.title}</h2>
                   <p className="text-xs">{item.description}</p>
                   <div className="bg-[#252632] flex items-center gap-x-4 mt-3">
@@ -211,253 +234,29 @@ export function Home() {
                 </div>
               </div>
             ))}
-            {/*<div className="bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
-            {/*  <figure>*/}
-            {/*    <img*/}
-            {/*      src="/assets/medis-tanggap.png"*/}
-            {/*      alt="Website Medis Tanggap"*/}
-            {/*      className="rounded-sm w-full h-auto"*/}
-            {/*    />*/}
-            {/*  </figure>*/}
-            {/*  <div className="bg-[#252632]">*/}
-            {/*    <h2 className=" text-lg">Medis Tanggap</h2>*/}
-            {/*    <p className="text-xs">*/}
-            {/*      Lorem ipsum dolor sit amet, consectetur adipisicing elit.*/}
-            {/*      Adipisci corporis eaque facere ipsa iure laudantium minus*/}
-            {/*      necessitatibus odit quae suscipit!*/}
-            {/*    </p>*/}
-            {/*    <div className="bg-[#252632] flex items-center gap-x-4 mt-3">*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/reactjs.webp"*/}
-            {/*          alt="Logo Reactjs"*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/bootstrap.png"*/}
-            {/*          alt="Logo Bootstrap "*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>{" "}*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/mysql.png"*/}
-            {/*          alt="Logo Mysql"*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>{" "}*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/figma.png"*/}
-            {/*          alt="Logo Figma"*/}
-            {/*          className="w-5"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</div>{" "}*/}
-            {/*<div className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
-            {/*  <figure className="overflow-hidden">*/}
-            {/*    <img*/}
-            {/*      src="/assets/restoran-finder.png"*/}
-            {/*      alt="Gambar Webstie Restoran App"*/}
-            {/*      className="rounded-sm h-auto w-full"*/}
-            {/*    />*/}
-            {/*  </figure>*/}
-            {/*  <div>*/}
-            {/*    <h2 className=" text-lg">Restaurant App</h2>*/}
-            {/*    <p className="text-xs">*/}
-            {/*      Lorem ipsum dolor sit amet, consectetur adipisicing elit.*/}
-            {/*      Adipisci corporis eaque facere ipsa iure laudantium minus*/}
-            {/*      necessitatibus odit quae suscipit!*/}
-            {/*    </p>*/}
-            {/*    <div className=" flex items-center gap-x-4 mt-3">*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/js.webp"*/}
-            {/*          alt="Logo Js"*/}
-            {/*          className="w-12"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/html.webp"*/}
-            {/*          alt="Logo HTML "*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>{" "}*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/css.png"*/}
-            {/*          alt="Logo CSS"*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
-            {/*<div className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
-            {/*  <figure className="overflow-hidden">*/}
-            {/*    <img*/}
-            {/*      src="/assets/second.png"*/}
-            {/*      alt="Gambar Webstie Restoran App"*/}
-            {/*      className="rounded-sm h-auto w-full"*/}
-            {/*    />*/}
-            {/*  </figure>*/}
-            {/*  <div>*/}
-            {/*    <h2 className=" text-lg">SecondLife App</h2>*/}
-            {/*    <p className="text-xs">*/}
-            {/*      Lorem ipsum dolor sit amet, consectetur adipisicing elit.*/}
-            {/*      Adipisci corporis eaque facere ipsa iure laudantium minus*/}
-            {/*      necessitatibus odit quae suscipit!*/}
-            {/*    </p>*/}
-            {/*    <div className=" flex items-center gap-x-4 mt-3">*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/reactjs.webp"*/}
-            {/*          alt="Logo Reactjs"*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/tailwind.png"*/}
-            {/*          alt="Logo Tailwind "*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>{" "}*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/figma.png"*/}
-            {/*          alt="Logo Figma"*/}
-            {/*          className="w-5"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</div>{" "}*/}
-            {/*<div className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
-            {/*  <figure className="overflow-hidden">*/}
-            {/*    <img*/}
-            {/*      src="/assets/vend.png"*/}
-            {/*      alt="Gambar Webstie Restoran App"*/}
-            {/*      className="rounded-sm h-auto w-full"*/}
-            {/*    />*/}
-            {/*  </figure>*/}
-            {/*  <div>*/}
-            {/*    <h2 className=" text-lg">Vending Machine App</h2>*/}
-            {/*    <p className="text-xs">*/}
-            {/*      Lorem ipsum dolor sit amet, consectetur adipisicing elit.*/}
-            {/*      Adipisci corporis eaque facere ipsa iure laudantium minus*/}
-            {/*      necessitatibus odit quae suscipit!*/}
-            {/*    </p>*/}
-            {/*    <div className=" flex items-center gap-x-4 mt-3">*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/reactjs.webp"*/}
-            {/*          alt="Logo Reactjs"*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/tailwind.png"*/}
-            {/*          alt="Logo Tailwind "*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>{" "}*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/figma.png"*/}
-            {/*          alt="Logo Figma"*/}
-            {/*          className="w-5"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</div>{" "}*/}
-            {/*<div className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
-            {/*  <figure className="overflow-hidden">*/}
-            {/*    <img*/}
-            {/*      src="/assets/split-bill.png"*/}
-            {/*      alt="Gambar Webstie Restoran App"*/}
-            {/*      className="rounded-sm h-auto w-full"*/}
-            {/*    />*/}
-            {/*  </figure>*/}
-            {/*  <div>*/}
-            {/*    <h2 className=" text-lg">Split Bill App</h2>*/}
-            {/*    <p className="text-xs">*/}
-            {/*      Lorem ipsum dolor sit amet, consectetur adipisicing elit.*/}
-            {/*      Adipisci corporis eaque facere ipsa iure laudantium minus*/}
-            {/*      necessitatibus odit quae suscipit!*/}
-            {/*    </p>*/}
-            {/*    <div className=" flex items-center gap-x-4 mt-3">*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/reactjs.webp"*/}
-            {/*          alt="Logo Reactjs"*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/tailwind.png"*/}
-            {/*          alt="Logo Tailwind "*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>{" "}*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/figma.png"*/}
-            {/*          alt="Logo Figma"*/}
-            {/*          className="w-5"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</div>{" "}*/}
-            {/*<div className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
-            {/*  <figure className="overflow-hidden">*/}
-            {/*    <img*/}
-            {/*      src="/assets/tokocat.png"*/}
-            {/*      alt="Gambar Webstie Restoran App"*/}
-            {/*      className="rounded-sm h-auto w-full"*/}
-            {/*    />*/}
-            {/*  </figure>*/}
-            {/*  <div>*/}
-            {/*    <h2 className=" text-lg">TokoCat App</h2>*/}
-            {/*    <p className="text-xs">*/}
-            {/*      Lorem ipsum dolor sit amet, consectetur adipisicing elit.*/}
-            {/*      Adipisci corporis eaque facere ipsa iure laudantium minus*/}
-            {/*      necessitatibus odit quae suscipit!*/}
-            {/*    </p>*/}
-            {/*    <div className=" flex items-center gap-x-4 mt-3">*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/reactjs.webp"*/}
-            {/*          alt="Logo Reactjs"*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/tailwind.png"*/}
-            {/*          alt="Logo Tailwind "*/}
-            {/*          className="w-10"*/}
-            {/*        />*/}
-            {/*      </figure>{" "}*/}
-            {/*      <figure>*/}
-            {/*        <img*/}
-            {/*          src="/assets/figma.png"*/}
-            {/*          alt="Logo Figma"*/}
-            {/*          className="w-5"*/}
-            {/*        />*/}
-            {/*      </figure>*/}
-            {/*    </div>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
+          </div>
+        </div>
+
+        {/*  Sertifikat*/}
+        <div>
+          <h6 className="text-center mt-10 font-bold relative after:content-[''] after:block after:mt-2 after:bg-amber-300 after:w-10 after:h-1 after:rounded-sm after:mx-auto">
+            Certification
+          </h6>
+          <div className="mt-6 ">
+            {sertif.map((item, index) => (
+              <div
+                key={index}
+                className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]"
+              >
+                <figure>
+                  <img src={item.img} alt={item.title} />
+                </figure>
+                <div className="mt-2 text-center">
+                  <h2 className="text-lg ">{item.title}</h2>
+                  <p className="text-xs mt-2">{item.platform}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
