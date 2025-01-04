@@ -3,67 +3,67 @@ const data = [
     title: "Medis Tanggap",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
-    image: "/src/assets/medis-tanggap.png",
+    image: "/assets/medis-tanggap.png",
     technologies: [
-      { name: "Reactjs", logo: "/src/assets/reactjs.webp" },
-      { name: "Bootstrap", logo: "/src/assets/bootstrap.png" },
-      { name: "Mysql", logo: "/src/assets/mysql.png" },
-      { name: "Figma", logo: "/src/assets/figma.png" },
+      { name: "Reactjs", logo: "/assets/reactjs.webp" },
+      { name: "Bootstrap", logo: "/assets/bootstrap.png" },
+      { name: "Mysql", logo: "/assets/mysql.png" },
+      { name: "Figma", logo: "/assets/figma.png" },
     ],
   },
   {
     title: "Restaurant App",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
-    image: "/src/assets/restoran-finder.png",
+    image: "/assets/restoran-finder.png",
     technologies: [
-      { name: "JavaScript", logo: "/src/assets/js.webp" },
-      { name: "HTML", logo: "/src/assets/html.webp" },
-      { name: "CSS", logo: "/src/assets/css.png" },
+      { name: "JavaScript", logo: "/assets/js.webp" },
+      { name: "HTML", logo: "/assets/html.webp" },
+      { name: "CSS", logo: "/assets/css.png" },
     ],
   },
   {
     title: "SecondLife App",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
-    image: "/src/assets/second.png",
+    image: "/assets/second.png",
     technologies: [
-      { name: "Reactjs", logo: "/src/assets/reactjs.webp" },
-      { name: "Tailwind", logo: "/src/assets/tailwind.png" },
-      { name: "Figma", logo: "/src/assets/figma.png" },
+      { name: "Reactjs", logo: "/assets/reactjs.webp" },
+      { name: "Tailwind", logo: "/assets/tailwind.png" },
+      { name: "Figma", logo: "/assets/figma.png" },
     ],
   },
   {
     title: "Vending Machine App",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
-    image: "/src/assets/vend.png",
+    image: "/assets/vend.png",
     technologies: [
-      { name: "Reactjs", logo: "/src/assets/reactjs.webp" },
-      { name: "Tailwind", logo: "/src/assets/tailwind.png" },
-      { name: "Figma", logo: "/src/assets/figma.png" },
+      { name: "Reactjs", logo: "/assets/reactjs.webp" },
+      { name: "Tailwind", logo: "/assets/tailwind.png" },
+      { name: "Figma", logo: "/assets/figma.png" },
     ],
   },
   {
     title: "Split Bill App",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
-    image: "/src/assets/split-bill.png",
+    image: "/assets/split-bill.png",
     technologies: [
-      { name: "Reactjs", logo: "/src/assets/reactjs.webp" },
-      { name: "Tailwind", logo: "/src/assets/tailwind.png" },
-      { name: "Figma", logo: "/src/assets/figma.png" },
+      { name: "Reactjs", logo: "/assets/reactjs.webp" },
+      { name: "Tailwind", logo: "/assets/tailwind.png" },
+      { name: "Figma", logo: "/assets/figma.png" },
     ],
   },
   {
     title: "TokoCat App",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
-    image: "/src/assets/tokocat.png",
+    image: "/assets/tokocat.png",
     technologies: [
-      { name: "Reactjs", logo: "/src/assets/reactjs.webp" },
-      { name: "Tailwind", logo: "/src/assets/tailwind.png" },
-      { name: "Figma", logo: "/src/assets/figma.png" },
+      { name: "Reactjs", logo: "/assets/reactjs.webp" },
+      { name: "Tailwind", logo: "/assets/tailwind.png" },
+      { name: "Figma", logo: "/assets/figma.png" },
     ],
   },
 ];
@@ -74,7 +74,7 @@ export function Home() {
       <div className="mx-5 ">
         <figure className="aspect-square md:w-[40%] md:mx-auto overflow-hidden rounded-sm">
           <img
-            src="/src/assets/profile.jpg"
+            src="/assets/profile.jpg"
             alt="Foto Profile"
             className="object-cover"
           />
@@ -102,7 +102,7 @@ export function Home() {
           <div className="mt-6">
             <div className="flex items-start gap-x-4">
               <figure className="w-40 mt-1">
-                <img src="/src/assets/logodicoding.jpg" alt="Logo Dicoding" />
+                <img src="/assets/logodicoding.jpg" alt="Logo Dicoding" />
               </figure>
               <div>
                 <p className="font-semibold text-sm">
@@ -142,7 +142,7 @@ export function Home() {
             </div>{" "}
             <div className="flex items-start gap-x-4 mt-5">
               <figure className="w-36 mt-1">
-                <img src="/src/assets/logounsika.png" alt="Logo Dicoding" />
+                <img src="/assets/logounsika.png" alt="Logo Dicoding" />
               </figure>
               <div>
                 <p className="font-semibold text-sm">
@@ -214,7 +214,7 @@ export function Home() {
             {/*<div className="bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
             {/*  <figure>*/}
             {/*    <img*/}
-            {/*      src="/src/assets/medis-tanggap.png"*/}
+            {/*      src="/assets/medis-tanggap.png"*/}
             {/*      alt="Website Medis Tanggap"*/}
             {/*      className="rounded-sm w-full h-auto"*/}
             {/*    />*/}
@@ -229,28 +229,28 @@ export function Home() {
             {/*    <div className="bg-[#252632] flex items-center gap-x-4 mt-3">*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/reactjs.webp"*/}
+            {/*          src="/assets/reactjs.webp"*/}
             {/*          alt="Logo Reactjs"*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/bootstrap.png"*/}
+            {/*          src="/assets/bootstrap.png"*/}
             {/*          alt="Logo Bootstrap "*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>{" "}*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/mysql.png"*/}
+            {/*          src="/assets/mysql.png"*/}
             {/*          alt="Logo Mysql"*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>{" "}*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/figma.png"*/}
+            {/*          src="/assets/figma.png"*/}
             {/*          alt="Logo Figma"*/}
             {/*          className="w-5"*/}
             {/*        />*/}
@@ -261,7 +261,7 @@ export function Home() {
             {/*<div className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
             {/*  <figure className="overflow-hidden">*/}
             {/*    <img*/}
-            {/*      src="/src/assets/restoran-finder.png"*/}
+            {/*      src="/assets/restoran-finder.png"*/}
             {/*      alt="Gambar Webstie Restoran App"*/}
             {/*      className="rounded-sm h-auto w-full"*/}
             {/*    />*/}
@@ -276,21 +276,21 @@ export function Home() {
             {/*    <div className=" flex items-center gap-x-4 mt-3">*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/js.webp"*/}
+            {/*          src="/assets/js.webp"*/}
             {/*          alt="Logo Js"*/}
             {/*          className="w-12"*/}
             {/*        />*/}
             {/*      </figure>*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/html.webp"*/}
+            {/*          src="/assets/html.webp"*/}
             {/*          alt="Logo HTML "*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>{" "}*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/css.png"*/}
+            {/*          src="/assets/css.png"*/}
             {/*          alt="Logo CSS"*/}
             {/*          className="w-10"*/}
             {/*        />*/}
@@ -301,7 +301,7 @@ export function Home() {
             {/*<div className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
             {/*  <figure className="overflow-hidden">*/}
             {/*    <img*/}
-            {/*      src="/src/assets/second.png"*/}
+            {/*      src="/assets/second.png"*/}
             {/*      alt="Gambar Webstie Restoran App"*/}
             {/*      className="rounded-sm h-auto w-full"*/}
             {/*    />*/}
@@ -316,21 +316,21 @@ export function Home() {
             {/*    <div className=" flex items-center gap-x-4 mt-3">*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/reactjs.webp"*/}
+            {/*          src="/assets/reactjs.webp"*/}
             {/*          alt="Logo Reactjs"*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/tailwind.png"*/}
+            {/*          src="/assets/tailwind.png"*/}
             {/*          alt="Logo Tailwind "*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>{" "}*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/figma.png"*/}
+            {/*          src="/assets/figma.png"*/}
             {/*          alt="Logo Figma"*/}
             {/*          className="w-5"*/}
             {/*        />*/}
@@ -341,7 +341,7 @@ export function Home() {
             {/*<div className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
             {/*  <figure className="overflow-hidden">*/}
             {/*    <img*/}
-            {/*      src="/src/assets/vend.png"*/}
+            {/*      src="/assets/vend.png"*/}
             {/*      alt="Gambar Webstie Restoran App"*/}
             {/*      className="rounded-sm h-auto w-full"*/}
             {/*    />*/}
@@ -356,21 +356,21 @@ export function Home() {
             {/*    <div className=" flex items-center gap-x-4 mt-3">*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/reactjs.webp"*/}
+            {/*          src="/assets/reactjs.webp"*/}
             {/*          alt="Logo Reactjs"*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/tailwind.png"*/}
+            {/*          src="/assets/tailwind.png"*/}
             {/*          alt="Logo Tailwind "*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>{" "}*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/figma.png"*/}
+            {/*          src="/assets/figma.png"*/}
             {/*          alt="Logo Figma"*/}
             {/*          className="w-5"*/}
             {/*        />*/}
@@ -381,7 +381,7 @@ export function Home() {
             {/*<div className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
             {/*  <figure className="overflow-hidden">*/}
             {/*    <img*/}
-            {/*      src="/src/assets/split-bill.png"*/}
+            {/*      src="/assets/split-bill.png"*/}
             {/*      alt="Gambar Webstie Restoran App"*/}
             {/*      className="rounded-sm h-auto w-full"*/}
             {/*    />*/}
@@ -396,21 +396,21 @@ export function Home() {
             {/*    <div className=" flex items-center gap-x-4 mt-3">*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/reactjs.webp"*/}
+            {/*          src="/assets/reactjs.webp"*/}
             {/*          alt="Logo Reactjs"*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/tailwind.png"*/}
+            {/*          src="/assets/tailwind.png"*/}
             {/*          alt="Logo Tailwind "*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>{" "}*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/figma.png"*/}
+            {/*          src="/assets/figma.png"*/}
             {/*          alt="Logo Figma"*/}
             {/*          className="w-5"*/}
             {/*        />*/}
@@ -421,7 +421,7 @@ export function Home() {
             {/*<div className="mt-8 bg-[#252632] p-3 shadow-xl rounded-lg border border-[#252632]">*/}
             {/*  <figure className="overflow-hidden">*/}
             {/*    <img*/}
-            {/*      src="/src/assets/tokocat.png"*/}
+            {/*      src="/assets/tokocat.png"*/}
             {/*      alt="Gambar Webstie Restoran App"*/}
             {/*      className="rounded-sm h-auto w-full"*/}
             {/*    />*/}
@@ -436,21 +436,21 @@ export function Home() {
             {/*    <div className=" flex items-center gap-x-4 mt-3">*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/reactjs.webp"*/}
+            {/*          src="/assets/reactjs.webp"*/}
             {/*          alt="Logo Reactjs"*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/tailwind.png"*/}
+            {/*          src="/assets/tailwind.png"*/}
             {/*          alt="Logo Tailwind "*/}
             {/*          className="w-10"*/}
             {/*        />*/}
             {/*      </figure>{" "}*/}
             {/*      <figure>*/}
             {/*        <img*/}
-            {/*          src="/src/assets/figma.png"*/}
+            {/*          src="/assets/figma.png"*/}
             {/*          alt="Logo Figma"*/}
             {/*          className="w-5"*/}
             {/*        />*/}
