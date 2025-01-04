@@ -13,9 +13,9 @@ export function NavigasiBar() {
   return (
     <>
       <div className="mx-5">
-        <div className=" pt-4 flex items-center justify-between">
-          <a href="#" className="font-semibold">
-            Ari Rizwan
+        <div className=" pt-4 flex items-center justify-between lg:justify-around lg:text-xl">
+          <a href="#" className="font-semibold bg-[#fca311] p-1 rounded-sm">
+            AR
           </a>
 
           <button

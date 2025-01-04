@@ -3,12 +3,12 @@ const data = [
     title: "Medis Tanggap",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
-    image: "/assets/medis-tanggap.png",
+    image: "/assets/medis-tanggap.jpg",
     technologies: [
       { name: "Reactjs", logo: "/assets/reactjs.webp" },
       { name: "Bootstrap", logo: "/assets/bootstrap.png" },
       { name: "Mysql", logo: "/assets/mysql.png" },
-      { name: "Figma", logo: "/assets/figma.png" },
+      { name: "Figma", logo: "/assets/figma.webp" },
     ],
   },
   {
@@ -29,8 +29,8 @@ const data = [
     image: "/assets/second.png",
     technologies: [
       { name: "Reactjs", logo: "/assets/reactjs.webp" },
-      { name: "Tailwind", logo: "/assets/tailwind.png" },
-      { name: "Figma", logo: "/assets/figma.png" },
+      { name: "Tailwind", logo: "/assets/tailwind.svg" },
+      { name: "Figma", logo: "/assets/figma.webp" },
     ],
   },
   {
@@ -40,8 +40,8 @@ const data = [
     image: "/assets/vend.png",
     technologies: [
       { name: "Reactjs", logo: "/assets/reactjs.webp" },
-      { name: "Tailwind", logo: "/assets/tailwind.png" },
-      { name: "Figma", logo: "/assets/figma.png" },
+      { name: "Tailwind", logo: "/assets/tailwind.svg" },
+      { name: "Figma", logo: "/assets/figma.webp" },
     ],
   },
   {
@@ -51,8 +51,8 @@ const data = [
     image: "/assets/split-bill.png",
     technologies: [
       { name: "Reactjs", logo: "/assets/reactjs.webp" },
-      { name: "Tailwind", logo: "/assets/tailwind.png" },
-      { name: "Figma", logo: "/assets/figma.png" },
+      { name: "Tailwind", logo: "/assets/tailwind.svg" },
+      { name: "Figma", logo: "/assets/figma.webp" },
     ],
   },
   {
@@ -62,8 +62,8 @@ const data = [
     image: "/assets/tokocat.png",
     technologies: [
       { name: "Reactjs", logo: "/assets/reactjs.webp" },
-      { name: "Tailwind", logo: "/assets/tailwind.png" },
-      { name: "Figma", logo: "/assets/figma.png" },
+      { name: "Tailwind", logo: "/assets/tailwind.svg" },
+      { name: "Figma", logo: "/assets/figma.webp" },
     ],
   },
 ];
@@ -95,18 +95,18 @@ export function Home() {
   return (
     <>
       <div className="mx-5 ">
-        <figure className="aspect-square md:w-[40%] md:mx-auto overflow-hidden rounded-sm">
+        <figure className="aspect-square md:w-[30%] md:mx-auto overflow-hidden rounded-sm lg:mx-auto lg:w-[20%]">
           <img
             src="/assets/profile.jpg"
             alt="Foto Profile"
             className="object-cover"
           />
         </figure>
-        <div className="">
+        <div className="lg:mt-5 lg:text-2xl lg:w-1/2 lg:mx-auto">
           <h6 className="my-3 font-semibold">
             Hi, my name is Ari Rizwan, a front-End Developer
           </h6>
-          <p className="text-sm">
+          <p className="text-sm lg:text-lg ">
             I’m a passionate Front-End Developer who transforms ideas into
             interactive and visually appealing web experiences. By day, I craft
             clean, responsive user interfaces and collaborate with teams to
@@ -119,15 +119,15 @@ export function Home() {
           </p>
         </div>
         <div>
-          <h6 className="text-center mt-10 font-bold relative after:content-[''] after:block after:mt-2 after:bg-[#fca311] after:w-10 after:h-1 after:rounded-sm after:mx-auto">
+          <h6 className="text-center mt-10 font-bold relative after:content-[''] after:block after:mt-2 after:bg-[#fca311] after:w-10 after:h-1 after:rounded-sm after:mx-auto lg:text-2xl">
             Experience
           </h6>
-          <div className="mt-6">
-            <div className="flex items-start gap-x-4">
+          <div className="mt-6 lg:w-1/2 lg:mx-auto lg:text-lg">
+            <div className="flex items-start gap-x-4 ">
               <figure className="w-40 mt-1">
                 <img src="/assets/logodicoding.jpg" alt="Logo Dicoding" />
               </figure>
-              <div>
+              <div className=" ">
                 <p className="font-semibold text-sm">
                   Front-End & Back-End Web Developer Cohort
                 </p>
@@ -205,10 +205,10 @@ export function Home() {
           </div>
         </div>
         <div className=" mb-20">
-          <h6 className="text-center mt-10 font-bold relative after:content-[''] after:block after:mt-2 after:bg-amber-300 after:w-10 after:h-1 after:rounded-sm after:mx-auto">
+          <h6 className="text-center mt-10 font-bold relative after:content-[''] after:block after:mt-2 after:bg-[#fca311] after:w-10 after:h-1 after:rounded-sm after:mx-auto lg:text-2xl">
             Projects
           </h6>
-          <div className="mt-6 ">
+          <div className="mt-6 md:grid md:grid-cols-2 md:gap-x-4 lg:grid-cols-3 ">
             {data.map((item, index) => (
               <div
                 key={index}
@@ -226,8 +226,8 @@ export function Home() {
                   <p className="text-xs">{item.description}</p>
                   <div className="bg-[#252632] flex items-center gap-x-4 mt-3">
                     {item.technologies.map((tech, techIndex) => (
-                      <figure key={techIndex}>
-                        <img src={tech.logo} alt={tech.name} className="w-10" />
+                      <figure key={techIndex} className="w-7">
+                        <img src={tech.logo} alt={tech.name} />
                       </figure>
                     ))}
                   </div>
@@ -239,10 +239,10 @@ export function Home() {
 
         {/*  Sertifikat*/}
         <div>
-          <h6 className="text-center mt-10 font-bold relative after:content-[''] after:block after:mt-2 after:bg-amber-300 after:w-10 after:h-1 after:rounded-sm after:mx-auto">
+          <h6 className="text-center mt-10 font-bold relative after:content-[''] after:block after:mt-2 after:bg-[#fca311] after:w-10 after:h-1 after:rounded-sm after:mx-auto lg:text-2xl">
             Certification
           </h6>
-          <div className="mt-6 ">
+          <div className="mt-6 md:grid md:grid-cols-2 md:gap-x-4 lg:grid-cols-3">
             {sertif.map((item, index) => (
               <div
                 key={index}
