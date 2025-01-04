@@ -94,7 +94,7 @@ const sertif = [
 export function Home() {
   return (
     <>
-      <div className="mx-5 ">
+      <div className="mx-5 mt-4">
         <figure className="aspect-square md:w-[30%] md:mx-auto overflow-hidden rounded-sm lg:mx-auto lg:w-[20%]">
           <img
             src="/assets/profile.jpg"
@@ -103,19 +103,16 @@ export function Home() {
           />
         </figure>
         <div className="lg:mt-5 lg:text-2xl lg:w-1/2 lg:mx-auto">
-          <h6 className="my-3 font-semibold">
-            Hi, my name is Ari Rizwan, a front-End Developer
-          </h6>
+          <h6 className="my-3 font-semibold">Halo, saya Ari Rizwan 👋</h6>
           <p className="text-sm lg:text-lg ">
-            I’m a passionate Front-End Developer who transforms ideas into
-            interactive and visually appealing web experiences. By day, I craft
-            clean, responsive user interfaces and collaborate with teams to
-            bring designs to life. By night, I dive into design tools, explore
-            UI/UX trends, or refine my skills in JavaScript frameworks like
-            React. As a lifelong learner, I thrive on exploring the latest in
-            web development and honing my craft. Beyond coding, I enjoy delving
-            into topics like creativity, problem-solving, and self-growth to
-            stay inspired and innovative
+            Seorang Front-End Developer yang memiliki antusias 🎨. Saya siap
+            mengubah ide menjadi pengalaman web yang interaktif dan menarik
+            secara visual. Setiap harinya, saya merancang antarmuka pengguna
+            yang bersih dan responsif, serta berkolaborasi dengan tim untuk
+            mewujudkan desain yang fungsional dan menarik. <br />
+            Saya terus belajar dan mengeksplorasi hal baru di dunia pengembangan
+            web. Selain coding, saya juga tertarik dalam topik pemecahan
+            masalah, dan pengembangan diri untuk tetap berkembang dan inovatif.
           </p>
         </div>
         <div>
