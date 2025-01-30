@@ -2,7 +2,7 @@ const data = [
   {
     title: "Medis Tanggap",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
+      "Website layanan masyarakat untuk diagnosis penyakit kehamilan, pencarian kamar rumah sakit, dan surat rujukan dengan integrasi API. Dibangun dengan React.js, Bootstrap, dan MySQL.",
     image: "/assets/medis-tanggap.jpg",
     technologies: [
       { name: "Reactjs", logo: "/assets/reactjs.webp" },
@@ -14,7 +14,7 @@ const data = [
   {
     title: "Restaurant App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
+      "Restaurant app merupakan sebuah website yang dibangun untuk melatih progresive web app dan testing.",
     image: "/assets/restoran-finder.png",
     technologies: [
       { name: "JavaScript", logo: "/assets/js.webp" },
@@ -23,9 +23,20 @@ const data = [
     ],
   },
   {
+    title: "Eleven Hotel",
+    description:
+      "Website booking hotel sebagai proyek tugas akhir Rekayasa Perangkat Lunak, dibuat dengan Next.js dan Tailwind CSS.",
+    image: "/assets/eleven.png",
+    technologies: [
+      { name: "Reactjs", logo: "/assets/next.svg" },
+      { name: "Tailwind", logo: "/assets/tailwind.svg" },
+      { name: "Figma", logo: "/assets/figma.webp" },
+    ],
+  },
+  {
     title: "SecondLife App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
+      "Mini project berbasis Mobile First untuk latihan pengembangan website yang responsif di berbagai perangkat. Dibangun dengan React.js dan Tailwind CSS.",
     image: "/assets/second.png",
     technologies: [
       { name: "Reactjs", logo: "/assets/reactjs.webp" },
@@ -36,7 +47,7 @@ const data = [
   {
     title: "Vending Machine App",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
+      "Simulasi vending machine dengan algoritma Greedy Knapsack, dikembangkan menggunakan React.js dan Tailwind CSS.",
     image: "/assets/vend.png",
     technologies: [
       { name: "Reactjs", logo: "/assets/reactjs.webp" },
@@ -46,8 +57,7 @@ const data = [
   },
   {
     title: "Split Bill App",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci corporis eaque facere ipsa iure laudantium minus necessitatibus odit quae suscipit!",
+    description: "Aplikasi pembagian tagihan sederhana berbasis ReactJS",
     image: "/assets/split-bill.png",
     technologies: [
       { name: "Reactjs", logo: "/assets/reactjs.webp" },
@@ -64,6 +74,26 @@ const data = [
       { name: "Reactjs", logo: "/assets/reactjs.webp" },
       { name: "Tailwind", logo: "/assets/tailwind.svg" },
       { name: "Figma", logo: "/assets/figma.webp" },
+    ],
+  },
+  {
+    title: "Saas Website UIFry",
+    description:
+      "Mini project berbasis Mobile First untuk latihan pengembangan website yang responsif di berbagai perangkat. Dibangun dengan React.js dan Tailwind CSS.",
+    image: "/assets/saas.png",
+    technologies: [
+      { name: "Reactjs", logo: "/assets/reactjs.webp" },
+      { name: "Tailwind", logo: "/assets/tailwind.svg" },
+    ],
+  },
+  {
+    title: "Bookshelf API",
+    description:
+      "RESTful API untuk CRUD data buku, dikembangkan dalam kursus Belajar Back-End Pemula Dicoding (MSIB) menggunakan JavaScript.",
+    image: "/assets/api.png",
+    technologies: [
+      { name: "JavaScript", logo: "/assets/js.webp" },
+      { name: "Postman", logo: "/assets/postman.png" },
     ],
   },
 ];
